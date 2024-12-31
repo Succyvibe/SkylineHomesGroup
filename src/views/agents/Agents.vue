@@ -1,6 +1,6 @@
 <script setup>
 import agent from "@/assets/images/why-auth0.png";
-import ronnie from "@/assets/images/ronnie.jpg";
+import ronnie from "@/assets/images/Ronnie.jpg";
 import taiye from "@/assets/images/taiye.jpg";
 import kedrick from "@/assets/images/kedrick.jpg";
 import donnell from "@/assets/images/donnell.jpg";
@@ -11,7 +11,7 @@ import donnell from "@/assets/images/donnell.jpg";
     <div class="w-[80%] mx-auto">
       <div class="text-center w-full pb-10">
         <h3 class="text-3xl py-4">Agent listing</h3>
-        <p class="text-xl">Listings Of Singletary Realty Agents</p>
+        <p class="text-xl">Listings Of Skyline Agents</p>
       </div>
       <div class="grid lg:grid-cols-4 gap-2">
         <div class="bg-black rounded-xl p-2 text-white">
