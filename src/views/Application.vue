@@ -11,7 +11,7 @@
           Use a permanent address where you can receive mail.
         </p>
         <p class="mt-5">
-          N/B There’s a compulsory refundable application fee of $200 which
+          N/B There’s a compulsory refundable application fee of $500 which
           covers for tour expenses and it’s completely refundable whether you
           secure the apartment or not. Do not believe any agent/realtor who
           states otherwise. We will not be held accountable for any additional
@@ -1001,7 +1001,8 @@ export default {
         },
         body: JSON.stringify({
           access_key: WEB3FORMS_ACCESS_KEY,
-          name: this.name,
+          firstName: this.firstName,
+          lastName: this.lastName,
           email: this.email,
           phoneInput: this.phoneInput,
           country: this.country,
