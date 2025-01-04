@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
-import Application from "@/views/Application.vue";
+import NewyorkRentalApplication from "@/views/Application.vue";
+import NewjerseyRentalApplication from "@/views/ApplicationRental.vue";
 import Agents from "@/views/agents/Agents.vue";
 import Agentss from "@/views/agents/AgentDetails.vue";
 import Blogs from "@/views/blogs/Blogs.vue";
@@ -29,9 +30,18 @@ const router = createRouter({
       component: () => import("../views/AboutView.vue"),
     },
     {
+      path: "/nycrentalapplication",
+      name: "nycrentalapplication",
+      component: NewyorkRentalApplication,
+    },
+    {
       path: "/application",
-      name: "application",
-      component: Application,
+      redirect: "/nycrentalapplication",
+    },
+    {
+      path: "/njrentalapplication",
+      name: "njrentalapplication",
+      component: NewjerseyRentalApplication,
     },
     {
       path: "/agents",
