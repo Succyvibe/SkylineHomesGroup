@@ -3,7 +3,7 @@
     class="min-h-[100vh] relative py-12 bg-[url('https://images.unsplash.com/photo-1650954316166-c3361fefcc87?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmxhY2t8ZW58MHx8MHx8fDA%3D')] bg-cover bg-center bg-no-repeat"
   >
     <div
-      class="w-[85%] lg:w-[75%] mx-auto pt-16 lg:pt-28 pb-16 text-center text-white"
+      class="w-[85%] lg:w-[75%] mx-auto lg:pt-16 pb-16 text-center text-white"
     >
       <div class="pt-20">
         <h2 class="text-base/7 font-semibold mt-3">Application</h2>
