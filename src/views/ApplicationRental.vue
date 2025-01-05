@@ -10,7 +10,7 @@
         <p class="mt-1 text-sm/">
           Use a permanent address where you can receive mail.
         </p>
-        a
+
         <p class="mt-5">
           N/B There’s a compulsory refundable application fee of $200 which
           covers for tour expenses and it’s completely refundable whether you
