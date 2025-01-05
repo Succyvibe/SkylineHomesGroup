@@ -112,12 +112,12 @@ document.addEventListener("scroll", function () {
               >About Us</RouterLink
             >
           </li>
-          <li class="mt-10">
+          <li class="mt-10" @click="MenuOpen()">
             <RouterLink class="hover:border-b-2" to="/nycrentalapplication"
               >Newyork Application</RouterLink
             >
           </li>
-          <li class="mt-10">
+          <li class="mt-10" @click="MenuOpen()">
             <RouterLink class="hover:border-b-2" to="/njrentalapplication"
               >Newjersey Application</RouterLink
             >
@@ -138,15 +138,6 @@ document.addEventListener("scroll", function () {
           <li class="mt-10" @click="MenuOpen()">
             <RouterLink class="hover:border-b-2" to="/blog">blog</RouterLink>
           </li>
-
-          <div class="absolute bottom-4 left-0 w-full px-4">
-            <RouterLink
-              to="/application"
-              class="w-full bg-white rounded-full lg:px-10 px-20 py-3 text-black"
-            >
-              Contact
-            </RouterLink>
-          </div>
         </ul>
 
         <!-- ===========================Hamburger Icon============= -->
