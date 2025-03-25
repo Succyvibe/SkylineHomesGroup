@@ -4,6 +4,9 @@ import ronnie from '@/assets/images/Ronnie-pic.webp';
 import taiy from '@/assets/images/taiy.webp';
 import kedrick from '@/assets/images/kedrick.jpg';
 import donnell from '@/assets/images/donnell.webp';
+import stephen from '@/assets/images/stephen.jpg';
+import james from '@/assets/images/james.jpg';
+import natasha from '@/assets/images/natasha.jpg';
 </script>
 
 <template>
@@ -56,6 +59,50 @@ import donnell from '@/assets/images/donnell.webp';
             />
           </div>
           <h5 class="text-2xl pt-4">Donnell Brown</h5>
+          <p class="text-lg">Property Agent</p>
+        </div>
+
+        <!-- ------------Stephen Burns -->
+        <div
+          class="border bg-white rounded-xl p-2 shadow-xl text-black h-[600px] overflow-hidden drop-shadow-xl"
+        >
+          <div class="w-full h-[85%] bg-red-400">
+            <img
+              :src="stephen"
+              alt="Stephen Burnz"
+              class="w-full h-full object-cover duration-500 ease-in-out hover:scale-[1.09]"
+            />
+          </div>
+          <h5 class="text-2xl pt-4">Stephen J. Burnz</h5>
+          <p class="text-lg">Listing Agent</p>
+        </div>
+
+        <!-- ---------------------------James -->
+        <div
+          class="border bg-white rounded-xl p-2 shadow-xl text-black h-[600px] overflow-hidden drop-shadow-xl"
+        >
+          <div class="w-full h-[85%] bg-red-400">
+            <img
+              :src="james"
+              alt="James Powell"
+              class="w-full h-full object-cover duration-500 ease-in-out hover:scale-[1.09]"
+            />
+          </div>
+          <h5 class="text-2xl pt-4">James Powell</h5>
+          <p class="text-lg">Property Agent</p>
+        </div>
+        <!-- ---------------------------Natasha -->
+        <div
+          class="border bg-white rounded-xl p-2 shadow-xl text-black h-[600px] overflow-hidden drop-shadow-xl"
+        >
+          <div class="w-full h-[85%] bg-red-400">
+            <img
+              :src="natasha"
+              alt="Natasha Wright"
+              class="w-full h-full object-cover duration-500 ease-in-out hover:scale-[1.09]"
+            />
+          </div>
+          <h5 class="text-2xl pt-4">Natasha Wright</h5>
           <p class="text-lg">Listing Agent</p>
         </div>
       </div>
