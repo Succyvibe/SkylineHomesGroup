@@ -13,7 +13,7 @@ import natasha from '@/assets/images/natasha.jpg';
   <div class="py-20 bg-black text-white border-b">
     <div class="w-[80%] mx-auto">
       <div class="text-center w-full pb-10">
-        <h3 class="text-3xl py-4">Agent listing</h3>
+        <h3 class="text-3xl py-4">Agent</h3>
         <p class="text-xl">Listings Of Skyline Agents</p>
       </div>
       <div class="grid lg:grid-cols-3 gap-2">
