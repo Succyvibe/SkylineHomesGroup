@@ -1,8 +1,8 @@
 <script setup>
-import agent from "@/assets/images/why-auth0.png";
-import ronnie from "@/assets/images/Ronnie.jpg";
-import taiye from "@/assets/images/taiye.jpg";
-import kedrick from "@/assets/images/kedrick.jpg";
+import agent from '@/assets/images/why-auth0.png';
+import ronnie from '@/assets/images/Ronnie-pic.webp';
+import taiye from '@/assets/images/taiye.jpg';
+import kedrick from '@/assets/images/kedrick.jpg';
 // import donnell from "@/assets/images/donnell.jpg";
 </script>
 
@@ -13,12 +13,12 @@ import kedrick from "@/assets/images/kedrick.jpg";
         <h3 class="text-3xl py-4">Agent listing</h3>
         <p class="text-xl">Listings Of Skyline Agents</p>
       </div>
-      <div class="grid lg:grid-cols-4 gap-2">
-        <div class="bg-black rounded-xl p-2 text-white">
-          <div class="h-[200px] w-full">
-            <img :src="ronnie" alt="Ronnie" class="w-full object-contain" />
+      <div class="grid lg:grid-cols-3 gap-2">
+        <div class="border rounded-xl p-2 shadow-xl text-white h-[500px]">
+          <div class="w-full">
+            <img :src="ronnie" alt="Ronnie" class="w-full object-fit" />
           </div>
-          <h5 class="text-2xl py-6">Ronnie T. Clark</h5>
+          <h5 class="text-2xl pt-4">Ronnie T. Clark</h5>
           <p class="text-lg">Commercial Agent</p>
         </div>
         <div class="bg-black rounded-xl p-2 text-white">
