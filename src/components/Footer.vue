@@ -6,15 +6,15 @@
           <div>
             <div>
               <RouterLink to="/" class="text-lg lg:text-2xl font-bold">
-                Sky Homes Group
+                Skyline Homes Group
               </RouterLink>
             </div>
             <div class="lg:w-[40%]">
               <p class="pt-10 pb-14 text-[18px]">
                 We've helped numerous individuals find their ideal Farm House.
                 Now, we're dedicated to providing even greater opportunities and
-                insights. Whether you're buying or selling, we're here to
-                support you every step of the way.
+                insights. Whether you're Renting, buying or selling, we're here
+                to support you every step of the way.
               </p>
             </div>
             <div class="flex gap-9">
