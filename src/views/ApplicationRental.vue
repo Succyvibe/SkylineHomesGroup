@@ -1,6 +1,6 @@
 <template>
   <div
-    class="min-h-[100vh] relative py-12 bg-[url('https://images.unsplash.com/photo-1650954316166-c3361fefcc87?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmxhY2t8ZW58MHx8MHx8fDA%3D')] bg-cover bg-center bg-no-repeat"
+    class="min-h-[100vh] bg-black relative py-12 bg-[url('https://images.unsplash.com/photo-1650954316166-c3361fefcc87?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmxhY2t8ZW58MHx8MHx8fDA%3D')] bg-cover bg-center bg-no-repeat"
   >
     <div
       class="w-[85%] lg:w-[75%] mx-auto pt-10 lg:pt-16 pb-16 text-center text-white"
@@ -964,25 +964,25 @@
 </template>
 
 <script>
-const WEB3FORMS_ACCESS_KEY = "6475cc8e-ac4e-48ee-982e-3fcd77dfb92f";
+const WEB3FORMS_ACCESS_KEY = '6475cc8e-ac4e-48ee-982e-3fcd77dfb92f';
 
 export default {
   data() {
     return {
-      name: "",
-      email: "",
-      message: "",
-      phoneInput: "",
-      country: "",
-      streetAddress: "",
-      city: "",
-      region: "",
-      zipCode: "",
-      agentName: "",
-      landlordName: "",
-      others: "",
-      emergencyContact: "",
-      paymentMethod: "",
+      name: '',
+      email: '',
+      message: '',
+      phoneInput: '',
+      country: '',
+      streetAddress: '',
+      city: '',
+      region: '',
+      zipCode: '',
+      agentName: '',
+      landlordName: '',
+      others: '',
+      emergencyContact: '',
+      paymentMethod: '',
     };
   },
 
@@ -994,11 +994,11 @@ export default {
   // },
   methods: {
     async submitForm() {
-      const response = await fetch("https://api.web3forms.com/submit", {
-        method: "POST",
+      const response = await fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
         headers: {
-          "Content-Type": "application/json",
-          Accept: "application/json",
+          'Content-Type': 'application/json',
+          Accept: 'application/json',
         },
         body: JSON.stringify({
           access_key: WEB3FORMS_ACCESS_KEY,
@@ -1020,21 +1020,21 @@ export default {
       });
       const result = await response.json();
       if (result.success) {
-        this.$swal("Submitted Successfully");
-        (this.firstName = ""),
-          (this.lastName = ""),
-          (this.email = ""),
-          (this.phoneInput = ""),
-          (this.country = ""),
-          (this.streetAddress = ""),
-          (this.city = ""),
-          (this.region = ""),
-          (this.zipCode = ""),
-          (this.agentName = ""),
-          (this.landlordName = ""),
-          (this.others = ""),
-          (this.emergencyContact = ""),
-          (this.paymentMethod = "");
+        this.$swal('Submitted Successfully');
+        (this.firstName = ''),
+          (this.lastName = ''),
+          (this.email = ''),
+          (this.phoneInput = ''),
+          (this.country = ''),
+          (this.streetAddress = ''),
+          (this.city = ''),
+          (this.region = ''),
+          (this.zipCode = ''),
+          (this.agentName = ''),
+          (this.landlordName = ''),
+          (this.others = ''),
+          (this.emergencyContact = ''),
+          (this.paymentMethod = '');
       }
     },
   },

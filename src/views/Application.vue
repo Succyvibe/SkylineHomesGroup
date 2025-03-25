@@ -963,25 +963,25 @@
 </template>
 
 <script>
-const WEB3FORMS_ACCESS_KEY = "6475cc8e-ac4e-48ee-982e-3fcd77dfb92f";
+const WEB3FORMS_ACCESS_KEY = '6475cc8e-ac4e-48ee-982e-3fcd77dfb92f';
 
 export default {
   data() {
     return {
-      name: "",
-      email: "",
-      message: "",
-      phoneInput: "",
-      country: "",
-      streetAddress: "",
-      city: "",
-      region: "",
-      zipCode: "",
-      agentName: "",
-      landlordName: "",
-      others: "",
-      emergencyContact: "",
-      paymentMethod: "",
+      name: '',
+      email: '',
+      message: '',
+      phoneInput: '',
+      country: '',
+      streetAddress: '',
+      city: '',
+      region: '',
+      zipCode: '',
+      agentName: '',
+      landlordName: '',
+      others: '',
+      emergencyContact: '',
+      paymentMethod: '',
     };
   },
 
@@ -993,11 +993,11 @@ export default {
   // },
   methods: {
     async submitForm() {
-      const response = await fetch("https://api.web3forms.com/submit", {
-        method: "POST",
+      const response = await fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
         headers: {
-          "Content-Type": "application/json",
-          Accept: "application/json",
+          'Content-Type': 'application/json',
+          Accept: 'application/json',
         },
         body: JSON.stringify({
           access_key: WEB3FORMS_ACCESS_KEY,
@@ -1019,21 +1019,21 @@ export default {
       });
       const result = await response.json();
       if (result.success) {
-        this.$swal("Submitted Successfully");
-        (this.firstName = ""),
-          (this.lastName = ""),
-          (this.email = ""),
-          (this.phoneInput = ""),
-          (this.country = ""),
-          (this.streetAddress = ""),
-          (this.city = ""),
-          (this.region = ""),
-          (this.zipCode = ""),
-          (this.agentName = ""),
-          (this.landlordName = ""),
-          (this.others = ""),
-          (this.emergencyContact = ""),
-          (this.paymentMethod = "");
+        this.$swal('Submitted Successfully');
+        (this.firstName = ''),
+          (this.lastName = ''),
+          (this.email = ''),
+          (this.phoneInput = ''),
+          (this.country = ''),
+          (this.streetAddress = ''),
+          (this.city = ''),
+          (this.region = ''),
+          (this.zipCode = ''),
+          (this.agentName = ''),
+          (this.landlordName = ''),
+          (this.others = ''),
+          (this.emergencyContact = ''),
+          (this.paymentMethod = '');
       }
     },
   },
