@@ -11,8 +11,8 @@
             </div>
             <div class="lg:w-[40%]">
               <p class="pt-10 pb-14 text-[18px]">
-                We've helped numerous individuals find their ideal Farm House.
-                Now, we're dedicated to providing even greater opportunities and
+                We've helped numerous individuals find their ideal Home. Now,
+                we're dedicated to providing even greater opportunities and
                 insights. Whether you're Renting, buying or selling, we're here
                 to support you every step of the way.
               </p>
