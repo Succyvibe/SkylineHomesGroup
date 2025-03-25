@@ -65,17 +65,24 @@ import apart from '@/assets/images/apart.jpg';
           </div>
           <div>
             <h3 class="text-4xl mb-8">What Sets Us Apart</h3>
-            <p class="text-xl font-[200] leading-[2]">
-             <ul class=" text-xl font-[200] leading-[2]">
-              <li class="list-disc">unparalled market knowledge and expertise in New York City and New Jersey</li>
-              <li class="list-disc">Personalized service tailored to each clients unique needs</li>
-              <li class="list-disc">Proven track record of success in the competitive NYC and NJ real estated markets</li>
-              <li class="list-disc">Commitment to integrity, transparency, and exceptional communication</li>
-             </ul>
-            </p>
+            <ul class="text-xl font-[200] leading-[2]">
+              <li class="list-disc">
+                unparalled market knowledge and expertise in New York City and
+                New Jersey
+              </li>
+              <li class="list-disc">
+                Personalized service tailored to each clients unique needs
+              </li>
+              <li class="list-disc">
+                Proven track record of success in the competitive NYC and NJ
+                real estated markets
+              </li>
+              <li class="list-disc">
+                Commitment to integrity, transparency, and exceptional
+                communication
+              </li>
+            </ul>
           </div>
-
-       
         </div>
       </div>
     </div>
