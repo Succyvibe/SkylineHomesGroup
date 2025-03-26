@@ -47,21 +47,21 @@ import apart from '@/assets/images/apart.jpg';
           </div>
 
           <div class="w-full max-h-[600px] lg:max-h-[400px]">
-            <img
+            <!-- <img
               :src="team"
               alt="Our Team"
               class="w-full h-full object-cover"
-            />
+            /> -->
           </div>
         </div>
         <!--================What Sets Us Apart -->
         <div class="grid lg:grid-cols-2 gap-10">
           <div class="w-full max-h-[600px] lg:max-h-[400px]">
-            <img
+            <!-- <img
               :src="apart"
               alt="What Sets Us Apart"
               class="w-full h-full object-cover"
-            />
+            /> -->
           </div>
           <div>
             <h3 class="text-4xl mb-8">What Sets Us Apart</h3>

@@ -67,11 +67,11 @@ import natasha from '@/assets/images/natasha.jpg';
           class="border bg-white rounded-xl p-2 shadow-xl text-black h-[600px] overflow-hidden drop-shadow-xl"
         >
           <div class="w-full h-[85%] bg-red-400">
-            <img
+            <!-- <img
               :src="stephen"
               alt="Stephen Burnz"
               class="w-full h-full object-cover duration-500 ease-in-out hover:scale-[1.09]"
-            />
+            /> -->
           </div>
           <h5 class="text-2xl pt-4">Stephen J. Burnz</h5>
           <p class="text-lg">Listing Agent</p>
@@ -82,11 +82,11 @@ import natasha from '@/assets/images/natasha.jpg';
           class="border bg-white rounded-xl p-2 shadow-xl text-black h-[600px] overflow-hidden drop-shadow-xl"
         >
           <div class="w-full h-[85%] bg-red-400">
-            <img
+            <!-- <img
               :src="james"
               alt="James Powell"
               class="w-full h-full object-cover duration-500 ease-in-out hover:scale-[1.09]"
-            />
+            /> -->
           </div>
           <h5 class="text-2xl pt-4">James Powell</h5>
           <p class="text-lg">Property Agent</p>
@@ -96,11 +96,11 @@ import natasha from '@/assets/images/natasha.jpg';
           class="border bg-white rounded-xl p-2 shadow-xl text-black h-[600px] overflow-hidden drop-shadow-xl"
         >
           <div class="w-full h-[85%] bg-red-400">
-            <img
+            <!-- <img
               :src="natasha"
               alt="Natasha Wright"
               class="w-full h-full object-cover duration-500 ease-in-out hover:scale-[1.09]"
-            />
+            /> -->
           </div>
           <h5 class="text-2xl pt-4">Natasha Wright</h5>
           <p class="text-lg">Listing Agent</p>
