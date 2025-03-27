@@ -5,8 +5,8 @@ import taiy from '@/assets/images/taiy.webp';
 import kedrick from '@/assets/images/kedrick.jpg';
 import donnell from '@/assets/images/donnell.webp';
 import stephen from '@/assets/images/stephen.jpg';
-import james from '@/assets/images/james.jpg';
-import natasha from '@/assets/images/natasha.jpg';
+import james from '@/assets/images/James.jpg';
+import natasha from '@/assets/images/Natasha.jpg';
 </script>
 
 <template>
