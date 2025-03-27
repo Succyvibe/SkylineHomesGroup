@@ -893,9 +893,8 @@
                     v-model="emergencyContact"
                     aria-describedby="helper-text-explanation"
                     class="block w-full rounded-md bg-white border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 ps-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                    pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                    pattern="[0-9]{3}[0-9]{3}[0-9]{4}"
                     placeholder="123-456-7890"
-                    required
                   />
                 </div>
               </div>
