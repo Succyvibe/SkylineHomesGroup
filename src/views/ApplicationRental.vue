@@ -5,20 +5,46 @@
     <div
       class="w-[85%] lg:w-[75%] mx-auto pt-10 lg:pt-16 pb-16 text-center text-white"
     >
-      <div class="pt-20">
-        <h2 class="text-base/7 font-semibold mt-3">Application</h2>
-        <p class="mt-1 text-sm/">
-          Use a permanent address where you can receive mail.
+      <section
+        style="
+          max-width: 800px;
+          margin: 40px auto;
+          padding: 20px;
+          background-color: #f9f9f9;
+          border: 1px solid #ddd;
+          border-radius: 8px;
+          font-family: Arial, sans-serif;
+        "
+      >
+        <h2 style="color: #333; margin-bottom: 15px">
+          📝 Application Information
+        </h2>
+
+        <p style="color: #444; line-height: 1.6">
+          Please ensure you provide a
+          <strong>valid permanent address</strong> where you can securely
+          receive mail.
         </p>
 
-        <p class="mt-5">
-          N/B There’s a compulsory refundable application fee of $200 which
-          covers for tour expenses and it’s completely refundable whether you
-          secure the apartment or not. Do not believe any agent/realtor who
-          states otherwise. We will not be held accountable for any additional
-          charge by Agents/Landlords in the course of this transaction
+        <h3 style="margin-top: 25px; color: #333">
+          💳 Application Fee (Refundable)
+        </h3>
+        <p style="color: #444; line-height: 1.6">
+          <strong>Important:</strong>There is a
+          <strong>mandatory $350 refundable application fee</strong>, which
+          covers the cost of apartment tours and processing.<br />
+          <span style="color: green; font-weight: bold"
+            >✅ This fee is fully refundable</span
+          >, whether or not you choose to move forward with the apartment.
         </p>
-      </div>
+
+        <p style="color: #444; line-height: 1.6">
+          We are not responsible for
+          <strong>any additional charges</strong> imposed by landlords or
+          external agents. For your safety, please confirm all details with our
+          official team.
+        </p>
+      </section>
       <form @submit.prevent="submitForm">
         <div class="space-y-12">
           <div class="border-b border-gray-900/10 pb-12">
