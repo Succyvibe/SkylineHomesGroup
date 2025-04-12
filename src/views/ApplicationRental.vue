@@ -102,6 +102,7 @@
                     v-model="firstName"
                     id="firstName"
                     autocomplete="given-name"
+                    placeholder="First Name"
                     required
                     class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6"
                   />
@@ -123,12 +124,34 @@
                     v-model="lastName"
                     id="lastName"
                     autocomplete="family-name"
+                    placeholder="Last Name"
                     required
                     class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6"
                   />
                 </div>
               </div>
 
+              <div class="sm:col-span-3">
+                <label
+                  for="email"
+                  class="block text-sm/6 font-medium text-gray-900"
+                >
+                  <span v-if="lang === 'en'">Email</span>
+                  <span v-if="lang === 'es'">Correo electronico</span>
+                </label>
+                <div class="mt-2">
+                  <input
+                    type="email"
+                    name="email"
+                    v-model="email"
+                    id="email"
+                    autocomplete="given-name"
+                    placeholder="Email"
+                    required
+                    class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6"
+                  />
+                </div>
+              </div>
               <div class="sm:col-span-3">
                 <label
                   for="phoneInput"
