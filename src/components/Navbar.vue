@@ -1,27 +1,27 @@
 <script setup>
-import { ref } from "vue";
-import { RouterLink } from "vue-router";
-import Button from "./Button.vue";
-import logoo from "@/assets/logoo.png";
+import { ref } from 'vue';
+import { RouterLink } from 'vue-router';
+import Button from './Button.vue';
+import logoo from '@/assets/logoo.png';
 
 const images = [
   {
-    src: "https://cdn.pixabay.com/photo/2016/11/29/06/22/buildings-1867772_960_720.jpg",
-    alt: "Image 1",
+    src: 'https://cdn.pixabay.com/photo/2016/11/29/06/22/buildings-1867772_960_720.jpg',
+    alt: 'Image 1',
   },
 
   {
-    src: "https://petapixel.com/assets/uploads/2022/12/image13-1-800x536.jpg",
-    alt: "Image 2",
+    src: 'https://petapixel.com/assets/uploads/2022/12/image13-1-800x536.jpg',
+    alt: 'Image 2',
   },
   {
-    src: "https://petapixel.com/assets/uploads/2022/12/image11-1-800x534.jpg",
-    alt: "Image 3",
+    src: 'https://petapixel.com/assets/uploads/2022/12/image11-1-800x534.jpg',
+    alt: 'Image 3',
   },
 
   {
-    src: "https://petapixel.com/assets/uploads/2022/12/what-is-unsplash-800x420.jpg",
-    alt: "Image 1",
+    src: 'https://petapixel.com/assets/uploads/2022/12/what-is-unsplash-800x420.jpg',
+    alt: 'Image 1',
   },
 ];
 
@@ -32,7 +32,7 @@ function MenuOpen() {
 }
 
 let showWhiteBackground = ref(false);
-document.addEventListener("scroll", function () {
+document.addEventListener('scroll', function () {
   let bodyTopPosition = document.body.getBoundingClientRect().top;
 
   if (bodyTopPosition < -150) {
@@ -74,14 +74,14 @@ document.addEventListener("scroll", function () {
           <li>
             <RouterLink class="hover:border-b-2" to="/about">About</RouterLink>
           </li>
-          <li>
+          <!-- <li>
             <RouterLink class="hover:border-b-2" to="/nycrentalapplication"
               >Newyork Application</RouterLink
             >
-          </li>
+          </li> -->
           <li>
-            <RouterLink class="hover:border-b-2" to="/njrentalapplication"
-              >Newjersey Application</RouterLink
+            <RouterLink class="hover:border-b-2" to="/njrentalapplication">
+              Application</RouterLink
             >
           </li>
           <li>
