@@ -29,13 +29,26 @@
           <strong>valid email address</strong> where you can securely receive
           mail.
         </p>
-        <h3 class="mt-4">💳 Application Fee (Refundable)</h3>
+        <h3 class="mt-4">💳 Refundable Application Fee – $300</h3>
         <p>
-          There is a <strong>mandatory $350 refundable application fee</strong>,
-          which covers the cost of apartment tours and processing.<br />
-          <span class="text-green-600 font-semibold"
-            >✅ This fee is fully refundable</span
-          >, whether or not you choose to move forward with the apartment.
+          To reserve your apartment viewings and get you scheduled, we require a
+          fully <strong>refundable $300 fee</strong>. This helps us coordinate
+          your tour and manage the next steps efficiently once your application
+          has been reviewed.
+
+          <br />
+          <span class="font-semibold">
+            ✅ <strong>100% refundable</strong>, whether or not you choose to
+            move forward.</span
+          >
+          <br />
+          <span class="font-semibold">
+            ✅Covers personalized apartment tours and priority processing.</span
+          >
+          <br />
+          <span class="font-semibold">
+            ✅ No hidden fees—what you see is what you get.</span
+          >
         </p>
         <!-- <blockquote
           class="bg-yellow-100 border-l-4 border-yellow-500 text-yellow-900 p-4"
@@ -44,41 +57,36 @@
           or realtors who claim otherwise. Only communication and fees directly
           processed through our platform are guaranteed.
         </blockquote> -->
-        <p>
-          We are not responsible for
-          <strong>any additional charges</strong> imposed by landlords or
-          external agents. For your safety, please confirm all details with our
-          official team.
-        </p>
       </div>
 
       <div v-if="lang === 'es'" class="text-lg">
         <p>
-          Asegúrese de proporcionar una
-          <strong>dirección permanente válida</strong> donde pueda recibir
-          correo de manera segura.
+          Por favor, asegúrese de proporcionar una
+          <strong>dirección de correo electrónico válida</strong> donde pueda
+          recibir correos de manera segura.
         </p>
-        <h3 class="mt-4">💳 Tarifa de Aplicación (Reembolsable)</h3>
+        <h3 class="mt-4">💳 Tarifa de solicitud reembolsable – $300</h3>
         <p>
-          Hay una
-          <strong>tarifa de aplicación obligatoria de $350 reembolsable</strong
-          >, que cubre los gastos de las visitas y procesamiento.<br />
-          <span class="text-green-600 font-semibold"
-            >✅ Esta tarifa es completamente reembolsable</span
-          >, independientemente de si decide continuar con el apartamento o no.
-        </p>
-        <!-- <blockquote
-          class="bg-yellow-100 border-l-4 border-yellow-500 text-yellow-900 p-4"
-        >
-          <strong>Importante:</strong> No confíe en agentes o corredores
-          externos que digan lo contrario. Solo se garantiza la comunicación y
-          los pagos realizados directamente a través de nuestra plataforma.
-        </blockquote> -->
-        <p>
-          No somos responsables por
-          <strong>cargos adicionales</strong> impuestos por propietarios o
-          agentes externos. Para su seguridad, confirme todos los detalles
-          directamente con nuestro equipo oficial.
+          Para reservar sus visitas al apartamento y programarlas, requerimos
+          una
+          <strong>tarifa reembolsable de $300</strong>. Esto nos ayuda a
+          coordinar su recorrido y gestionar los siguientes pasos de manera
+          eficiente una vez que su solicitud haya sido revisada.
+
+          <br />
+          <span class="font-semibold">
+            ✅ <strong>100% reembolsable</strong>, haya decidido seguir adelante
+            o no.</span
+          >
+          <br />
+          <span class="font-semibold">
+            ✅ Cubre visitas personalizadas al apartamento y procesamiento
+            prioritario.</span
+          >
+          <br />
+          <span class="font-semibold">
+            ✅ Sin tarifas ocultas—lo que ve es lo que obtiene.</span
+          >
         </p>
       </div>
 
