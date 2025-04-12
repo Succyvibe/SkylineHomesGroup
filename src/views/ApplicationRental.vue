@@ -1109,6 +1109,10 @@ export default {
       firstName: '',
       lastName: '',
       email: '',
+      phoneInput: '',
+      country: '',
+      streetAddress: '',
+      city: '',
       agentName: '',
       landlordName: '',
       others: '',
@@ -1133,8 +1137,12 @@ export default {
           lastName: this.lastName,
           email: this.email,
           agentName: this.agentName,
+          phoneInput: this.phoneInput,
+          country: this.country,
+          city: this.city,
           landlordName: this.landlordName,
           others: this.others,
+          streetAddress: this.streetAddress,
           emergencyContact: this.emergencyContact,
           paymentMethod: this.paymentMethod,
           country: this.country,
@@ -1156,7 +1164,9 @@ export default {
       this.lastName = '';
       this.email = '';
       this.agentName = '';
-      this.landlordName = '';
+      this.phoneInput = '';
+      this.country = '';
+      (this.streetAddress = ''), (this.city = ''), (this.landlordName = '');
       this.others = '';
       this.emergencyContact = '';
       this.paymentMethod = '';
