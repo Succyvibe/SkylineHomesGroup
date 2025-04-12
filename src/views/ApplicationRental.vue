@@ -43,20 +43,17 @@
           >
           <br />
           <span class="font-semibold">
-            ✅Covers personalized apartment tours and priority processing.</span
+            ✅Covers personalized apartment tours.</span
           >
-          <br />
-          <span class="font-semibold">
-            ✅ No hidden fees—what you see is what you get.</span
-          >
-        </p>
-        <!-- <blockquote
+
+          <!-- <blockquote
           class="bg-yellow-100 border-l-4 border-yellow-500 text-yellow-900 p-4"
         >
           <strong>Important:</strong> Do <u>not</u> rely on third-party agents
           or realtors who claim otherwise. Only communication and fees directly
           processed through our platform are guaranteed.
         </blockquote> -->
+        </p>
       </div>
 
       <div v-if="lang === 'es'" class="text-lg">
@@ -77,15 +74,6 @@
           <span class="font-semibold">
             ✅ <strong>100% reembolsable</strong>, haya decidido seguir adelante
             o no.</span
-          >
-          <br />
-          <span class="font-semibold">
-            ✅ Cubre visitas personalizadas al apartamento y procesamiento
-            prioritario.</span
-          >
-          <br />
-          <span class="font-semibold">
-            ✅ Sin tarifas ocultas—lo que ve es lo que obtiene.</span
           >
         </p>
       </div>
