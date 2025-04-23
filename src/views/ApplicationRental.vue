@@ -26,10 +26,9 @@
       <div v-if="lang === 'en'" class="text-lg">
         <p>
           Please ensure you provide a
-          <strong>valid email address</strong> where you can securely receive
-          mail.
+          <strong>valid email address</strong> where you can receive mail.
         </p>
-        <h3 class="mt-4">💳 Refundable Application Fee – $300</h3>
+        <br />
         <p>
           To reserve your apartment viewings and get you scheduled, we require a
           fully <strong>refundable $300 fee</strong>. This helps us coordinate
@@ -38,12 +37,13 @@
 
           <br />
           <span class="font-semibold">
-            ✅ <strong>100% refundable</strong>, whether or not you choose to
-            move forward.</span
+            ✅Covers personalized apartment tours.</span
           >
+
           <br />
           <span class="font-semibold">
-            ✅Covers personalized apartment tours.</span
+            ✅ <strong>100% refundable</strong>, whether or not you choose to
+            move forward.</span
           >
 
           <!-- <blockquote
@@ -62,7 +62,7 @@
           <strong>dirección de correo electrónico válida</strong> donde pueda
           recibir correos de manera segura.
         </p>
-        <h3 class="mt-4">💳 Tarifa de solicitud reembolsable – $300</h3>
+
         <p>
           Para reservar sus visitas al apartamento y programarlas, requerimos
           una

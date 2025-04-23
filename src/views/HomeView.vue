@@ -1,10 +1,10 @@
 <script setup>
-import heroImage from "../assets/images/heroImage.jpg";
-import houseImage from "../assets/images/house4sale.jpg";
-import ideas from "../assets/images/ideas.jpg";
+import heroImage from '../assets/images/heroImage.jpg';
+import houseImage from '../assets/images/house4sale.jpg';
+import ideas from '../assets/images/ideas.jpg';
 
 const image =
-  "https://cdn.pixabay.com/photo/2016/11/29/06/22/buildings-1867772_960_720.jpg";
+  'https://cdn.pixabay.com/photo/2016/11/29/06/22/buildings-1867772_960_720.jpg';
 </script>
 
 <template>
