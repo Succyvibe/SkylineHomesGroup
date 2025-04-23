@@ -117,9 +117,14 @@ document.addEventListener('scroll', function () {
               >About Us</RouterLink
             >
           </li>
-          <li class="mt-10" @click="MenuOpen()">
+          <li>
             <RouterLink class="hover:border-b-2" to="/njrentalapplication">
-              Application</RouterLink
+              NJ Application</RouterLink
+            >
+          </li>
+          <li>
+            <RouterLink class="hover:border-b-2" to="/nycrentalapplication">
+              NYC Application</RouterLink
             >
           </li>
           <li class="mt-10" @click="MenuOpen()">

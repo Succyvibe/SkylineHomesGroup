@@ -66,7 +66,7 @@
         <p>
           Para reservar sus visitas al apartamento y programarlas, requerimos
           una
-          <strong>tarifa reembolsable de $200</strong>. Esto nos ayuda a
+          <strong>tarifa reembolsable de $300</strong>. Esto nos ayuda a
           coordinar su recorrido y gestionar los siguientes pasos de manera
           eficiente una vez que su solicitud haya sido revisada.
 
