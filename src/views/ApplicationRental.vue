@@ -31,7 +31,7 @@
         <br />
         <p>
           To reserve your apartment viewings and get you scheduled, we require a
-          fully <strong>refundable $200 fee</strong>. This helps us coordinate
+          fully <strong>refundable $300 fee</strong>. This helps us coordinate
           your tour and manage the next steps efficiently once your application
           has been reviewed.
 
