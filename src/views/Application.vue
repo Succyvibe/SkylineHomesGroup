@@ -178,7 +178,7 @@
                     v-model="phoneInput"
                     id="phoneInput"
                     aria-describedby="helper-text-explanation"
-                    class="block w-full rounded-md bg-white border border-gray-300 text-black text-sm focus:ring-blue-500 focus:border-blue-500 ps-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6"
                     pattern="[0-9]{3}[0-9]{3}[0-9]{4}"
                     placeholder="1234567890"
                     required
@@ -1000,7 +1000,7 @@
                     :placeholder="
                       language === 'es' ? '1234567890' : '1234567890'
                     "
-                    class="block w-full rounded-md bg-white border border-gray-300 text-black text-sm focus:ring-blue-500 focus:border-blue-500 ps-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6"
                     pattern="[0-9]{3}[0-9]{3}[0-9]{4}"
                   />
                 </div>
@@ -1068,6 +1068,9 @@
                   </option> -->
                   <option value="Apple Pay">
                     {{ lang === 'es' ? 'Apple Pay' : 'Apple Pay' }}
+                  </option>
+                  <option value="Crypto">
+                    {{ lang === 'es' ? 'Crypto' : 'Crypto' }}
                   </option>
                   <option value="Chime">
                     {{ lang === 'es' ? 'Chime' : 'Chime' }}
