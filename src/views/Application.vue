@@ -31,7 +31,7 @@
         <br />
         <p>
           To reserve your apartment viewings and get you scheduled, we require a
-          fully <strong>refundable $300 fee</strong>. This helps us coordinate
+          fully <strong>refundable $350 fee</strong>. This helps us coordinate
           your tour and manage the next steps efficiently once your application
           has been reviewed.
 
@@ -66,7 +66,7 @@
         <p>
           Para reservar sus visitas al apartamento y programarlas, requerimos
           una
-          <strong>tarifa reembolsable de $300</strong>. Esto nos ayuda a
+          <strong>tarifa reembolsable de $350</strong>. Esto nos ayuda a
           coordinar su recorrido y gestionar los siguientes pasos de manera
           eficiente una vez que su solicitud haya sido revisada.
 
