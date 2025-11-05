@@ -79,7 +79,7 @@ import chantre from '@/assets/images/chantre.webp';
           <p class="text-lg">Commercial Agent</p>
         </div>
 
-        <!-- -------------Donnell -->
+        <!-- -------------Kedrick -->
         <div
           class="border bg-white rounded-xl p-2 shadow-xl text-black h-[600px] overflow-hidden drop-shadow-xl"
         >
@@ -94,33 +94,33 @@ import chantre from '@/assets/images/chantre.webp';
           <p class="text-lg">Listing Agent</p>
         </div>
 
-        <!-- ------------Stephen Burns -->
+        <!-- ------------Graysean -->
         <div
           class="border bg-white rounded-xl p-2 shadow-xl text-black h-[600px] overflow-hidden drop-shadow-xl"
         >
           <div class="w-full h-[85%] bg-red-400">
             <img
               :src="stephen"
-              alt="Stephen Burnz"
+              alt="Graysean Bradley"
               class="w-full h-full object-cover duration-500 ease-in-out hover:scale-[1.09]"
             />
           </div>
-          <h5 class="text-2xl pt-4">Stephen J. Burnz</h5>
+          <h5 class="text-2xl pt-4">Graysean Bradley</h5>
           <p class="text-lg">Listing Agent</p>
         </div>
 
-        <!-- ---------------------------James -->
+        <!-- ---------------------------Micheal -->
         <div
           class="border bg-white rounded-xl p-2 shadow-xl text-black h-[600px] overflow-hidden drop-shadow-xl"
         >
           <div class="w-full h-[85%] bg-red-400">
             <img
-              :src="james"
-              alt="James Powell"
+              :src="jame"
+              alt="Micheal Crawford"
               class="w-full h-full object-cover duration-500 ease-in-out hover:scale-[1.09]"
             />
           </div>
-          <h5 class="text-2xl pt-4">James Crawford</h5>
+          <h5 class="text-2xl pt-4">Micheal Crawford</h5>
           <p class="text-lg">Property Agent</p>
         </div>
         <!-- ---------------------------chantre-->
@@ -137,10 +137,60 @@ import chantre from '@/assets/images/chantre.webp';
           <h5 class="text-2xl pt-4">Chantre Wright</h5>
           <p class="text-lg">Listing Agent</p>
         </div>
+
+
+        <!------------------Donnellius Grynn King------------->
+           <div
+          class="border bg-white rounded-xl p-2 shadow-xl text-black h-[600px] overflow-hidden drop-shadow-xl"
+        >
+          <div class="w-full h-[85%] bg-red-400">
+            <img
+              :src="james"
+              alt="Donnellius G. Morris"
+              class="w-full h-full object-cover duration-500 ease-in-out hover:scale-[1.09]"
+            />
+          </div>
+          <h5 class="text-2xl pt-4">Donnellius Grynn King</h5>
+          <p class="text-lg">Property Agent</p>
+        </div>
         <!-- ---------------------------lucas-->
         <div
           class="border bg-white rounded-xl p-2 shadow-xl text-black h-[600px] overflow-hidden drop-shadow-xl"
         >
+
+
+
+          <!------------------John Carter------------->
+           <div
+          class="border bg-white rounded-xl p-2 shadow-xl text-black h-[600px] overflow-hidden drop-shadow-xl"
+        >
+          <div class="w-full h-[85%] bg-red-400">
+            <img
+              :src="jams"
+              alt="John Carter"
+              class="w-full h-full object-cover duration-500 ease-in-out hover:scale-[1.09]"
+            />
+          </div>
+          <h5 class="text-2xl pt-4">John Carter</h5>
+          <p class="text-lg">Property Agent</p>
+        </div>
+
+           <!------------------Micheal Cooper------------->
+           <div
+          class="border bg-white rounded-xl p-2 shadow-xl text-black h-[600px] overflow-hidden drop-shadow-xl"
+        >
+          <div class="w-full h-[85%] bg-red-400">
+            <img
+              :src="jams"
+              alt="Micheal Cooper"
+              class="w-full h-full object-cover duration-500 ease-in-out hover:scale-[1.09]"
+            />
+          </div>
+          <h5 class="text-2xl pt-4">Micheal Cooper</h5>
+          <p class="text-lg">Property Agent</p>
+        </div>
+
+
           <div class="w-full h-[85%] bg-red-400">
             <img
               :src="lucas"
