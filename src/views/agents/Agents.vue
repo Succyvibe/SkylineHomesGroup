@@ -5,7 +5,7 @@ import powell from '@/assets/images/phillipPowell.webp';
 import sarah from '@/assets/images/sarah.webp';
 import taiy from '@/assets/images/taiy.webp';
 import kedrick from '@/assets/images/kedrick.jpg';
-import donnell from '@/assets/images/donnell.webp';
+
 import lucas from '@/assets/images/lucas.webp';
 import chantre from '@/assets/images/chantre.webp';
 // import stephen from '@/assets/images/stephen.jpg';
@@ -85,12 +85,12 @@ import chantre from '@/assets/images/chantre.webp';
         >
           <div class="w-full h-[85%] bg-red-400">
             <img
-              :src="donnell"
-              alt="Donnell Brown"
+              :src="kedrick"
+              alt="kedrick"
               class="w-full h-full object-cover duration-500 ease-in-out hover:scale-[1.09]"
             />
           </div>
-          <h5 class="text-2xl pt-4">Donnell Brown</h5>
+          <h5 class="text-2xl pt-4">Kedrick King</h5>
           <p class="text-lg">Listing Agent</p>
         </div>
 
