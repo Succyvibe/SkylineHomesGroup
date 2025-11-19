@@ -86,11 +86,11 @@ import chantre from '@/assets/images/chantre.webp';
           <div class="w-full h-[85%] bg-red-400">
             <img
               :src="kedrick"
-              alt="kedrick"
+              alt="kendrick Anderson"
               class="w-full h-full object-cover duration-500 ease-in-out hover:scale-[1.09]"
             />
           </div>
-          <h5 class="text-2xl pt-4">Kedrick King</h5>
+          <h5 class="text-2xl pt-4">Kendrick Anderson</h5>
           <p class="text-lg">Listing Agent</p>
         </div>
 
