@@ -36,7 +36,7 @@ const image =
               </p>
             </div>
 
-            <div>
+           <!-- <div>
               <div class="pt-4 flex items-center">
                 <a
                   href=""
@@ -45,8 +45,8 @@ const image =
                   Send An Email
                 </a>
               </div>
-            </div>
-          </div>
+            </div>-->
+          </div> 
 
           <!-- <div class="lg:w-[50%]">
             <img
