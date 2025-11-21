@@ -37,13 +37,12 @@
 
           <br />
           <span class="font-semibold">
-            ✅Covers personalized apartment tours.</span
+            ✅Covers personalized tours for all apartments you'll like to view.</span
           >
 
           <br />
           <span class="font-semibold">
-            ✅ <strong>100% refundable</strong>, whether or not you choose to
-            move forward.</span
+            ✅ <strong>Fully refundable</strong>, whether or not you secure any of our apartments.</span
           >
 
           <!-- <blockquote
@@ -180,7 +179,7 @@
                     aria-describedby="helper-text-explanation"
                     class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6"
                     pattern="[0-9]{3}[0-9]{3}[0-9]{4}"
-                    placeholder="1234567890"
+                    placeholder="3721456089"
                     required
                   />
                 </div>
@@ -998,7 +997,7 @@
                     v-model="emergencyContact"
                     aria-describedby="helper-text-explanation"
                     :placeholder="
-                      language === 'es' ? '1234567890' : '1234567890'
+                      language === 'es' ? '3721456089' : '3721456089'
                     "
                     class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6"
                     pattern="[0-9]{3}[0-9]{3}[0-9]{4}"
@@ -1052,9 +1051,7 @@
                   <option value="zelle">
                     {{ lang === 'es' ? 'Zelle' : 'Zelle' }}
                   </option>
-                  <option value="cashapp">
-                    {{ lang === 'es' ? 'Cashapp' : 'Cashapp' }}
-                  </option>
+                
                   <option value="paypal">
                     {{ lang === 'es' ? 'PayPal' : 'PayPal' }}
                   </option>
@@ -1069,8 +1066,11 @@
                   <option value="Apple Pay">
                     {{ lang === 'es' ? 'Apple Pay' : 'Apple Pay' }}
                   </option>
-                  <option value="Crypto">
-                    {{ lang === 'es' ? 'Crypto' : 'Crypto' }}
+                    <option value="cashapp">
+                    {{ lang === 'es' ? 'Cashapp' : 'Cashapp' }}
+                  </option>
+                  <option value="Bitcoin">
+                    {{ lang === 'es' ? 'Bitcoin' : 'Bitcoin' }}
                   </option>
                   <option value="Chime">
                     {{ lang === 'es' ? 'Chime' : 'Chime' }}
