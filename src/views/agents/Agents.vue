@@ -5,6 +5,10 @@ import powell from '@/assets/images/phillipPowell.webp';
 import sarah from '@/assets/images/sarah.webp';
 import taiy from '@/assets/images/taiy.webp';
 import kedrick from '@/assets/images/kedrick.jpg';
+import Donnell from '@/assets/images/donnell.webp';
+import Shigi from '@/assets/images/shigi.jpg';
+import Michael from '@/assets/images/micha.jpg';
+
 
 import lucas from '@/assets/images/lucas.webp';
 import chantre from '@/assets/images/chantre.webp';
@@ -33,7 +37,7 @@ import chantre from '@/assets/images/chantre.webp';
             />
           </div>
           <h5 class="text-2xl pt-4">Phillip Powell</h5>
-          <p class="text-lg">Commercial Agent</p>
+          <p class="text-sm font-bold">LICENSED REAL ESTATE SALESPERSON</p>
         </div>
         <!-- -------------ROnnie -->
         <div
@@ -47,7 +51,7 @@ import chantre from '@/assets/images/chantre.webp';
             />
           </div>
           <h5 class="text-2xl pt-4">Ronnie T. Clark</h5>
-          <p class="text-lg">Commercial Agent</p>
+          <p class="text-sm font-bold">LICENSED REAL ESTATE SALESPERSON</p>
         </div>
 
         <!-- -----------------Saarah -->
@@ -62,7 +66,7 @@ import chantre from '@/assets/images/chantre.webp';
             />
           </div>
           <h5 class="text-2xl pt-4">Sarah Moudry</h5>
-          <p class="text-lg">Sales</p>
+          <p class="text-sm font-bold">LISTING & SALESPERSON</p>
         </div>
         <!-- -----------------taiye -->
         <div
@@ -76,23 +80,10 @@ import chantre from '@/assets/images/chantre.webp';
             />
           </div>
           <h5 class="text-2xl pt-4">Santa Taiye</h5>
-          <p class="text-lg">Commercial Agent</p>
+           <p class="text-sm font-bold">LICENSED REAL ESTATE SALESPERSON</p>
         </div>
 
-        <!-- -------------Kedrick -->
-        <div
-          class="border bg-white rounded-xl p-2 shadow-xl text-black h-[600px] overflow-hidden drop-shadow-xl"
-        >
-          <div class="w-full h-[85%] bg-red-400">
-            <img
-              :src="kedrick"
-              alt="kendrick Anderson"
-              class="w-full h-full object-cover duration-500 ease-in-out hover:scale-[1.09]"
-            />
-          </div>
-          <h5 class="text-2xl pt-4">Kendrick Anderson</h5>
-          <p class="text-lg">Listing Agent</p>
-        </div>
+        
 
         <!-- ------------Graysean -->
         <div
@@ -106,22 +97,36 @@ import chantre from '@/assets/images/chantre.webp';
             />
           </div>
           <h5 class="text-2xl pt-4">Graysean Bradley</h5>
-          <p class="text-lg">Listing Agent</p>
+           <p class="text-sm font-bold">LICENSED REAL ESTATE SALESPERSON</p>
         </div>
-
-        <!-- ---------------------------Micheal -->
+        <!-- ------------Michael -->
         <div
           class="border bg-white rounded-xl p-2 shadow-xl text-black h-[600px] overflow-hidden drop-shadow-xl"
         >
           <div class="w-full h-[85%] bg-red-400">
             <img
-              :src="jame"
-              alt="Micheal Crawford"
+              :src="Michael"
+              alt="Michael C"
               class="w-full h-full object-cover duration-500 ease-in-out hover:scale-[1.09]"
             />
           </div>
-          <h5 class="text-2xl pt-4">Micheal Crawford</h5>
-          <p class="text-lg">Property Agent</p>
+          <h5 class="text-2xl pt-4">Michael Comandini</h5>
+          <p class="text-sm font-bold">LICENSED REAL ESTATE SALESPERSON</p>
+        </div>
+
+        <!-- ---------------------------Shigi -->
+        <div
+          class="border bg-white rounded-xl p-2 shadow-xl text-black h-[600px] overflow-hidden drop-shadow-xl"
+        >
+          <div class="w-full h-[85%] bg-red-400">
+            <img
+              :src="Shigi"
+              alt="Shigi Mike"
+              class="w-full h-full object-cover duration-500 ease-in-out hover:scale-[1.09]"
+            />
+          </div>
+          <h5 class="text-2xl pt-4">Shigi Mike</h5>
+          <p class="text-sm font-bold">LICENSED REAL ESTATE SALESPERSON</p>
         </div>
         <!-- ---------------------------chantre-->
         <div
@@ -135,7 +140,7 @@ import chantre from '@/assets/images/chantre.webp';
             />
           </div>
           <h5 class="text-2xl pt-4">Chantre Wright</h5>
-          <p class="text-lg">Listing Agent</p>
+          <p class="text-sm font-bold">LICENSED REAL ESTATE SALESPERSON</p>
         </div>
 
 
@@ -145,13 +150,13 @@ import chantre from '@/assets/images/chantre.webp';
         >
           <div class="w-full h-[85%] bg-red-400">
             <img
-              :src="james"
-              alt="Donnellius G. Morris"
+              :src="Donnell"
+              alt="Donnell Green. Morris"
               class="w-full h-full object-cover duration-500 ease-in-out hover:scale-[1.09]"
             />
           </div>
-          <h5 class="text-2xl pt-4">Donnellius Grynn King</h5>
-          <p class="text-lg">Property Agent</p>
+          <h5 class="text-2xl pt-4">Donnell Greene</h5>
+           <p class="text-sm font-bold">LICENSED REAL ESTATE SALESPERSON</p>
         </div>
         <!-- ---------------------------lucas-->
         <div
@@ -160,36 +165,9 @@ import chantre from '@/assets/images/chantre.webp';
 
 
 
-          <!------------------John Carter------------->
-           <div
-          class="border bg-white rounded-xl p-2 shadow-xl text-black h-[600px] overflow-hidden drop-shadow-xl"
-        >
-          <div class="w-full h-[85%] bg-red-400">
-            <img
-              :src="jams"
-              alt="John Carter"
-              class="w-full h-full object-cover duration-500 ease-in-out hover:scale-[1.09]"
-            />
-          </div>
-          <h5 class="text-2xl pt-4">John Carter</h5>
-          <p class="text-lg">Property Agent</p>
-        </div>
+         
 
-           <!------------------Micheal Cooper------------->
-           <div
-          class="border bg-white rounded-xl p-2 shadow-xl text-black h-[600px] overflow-hidden drop-shadow-xl"
-        >
-          <div class="w-full h-[85%] bg-red-400">
-            <img
-              :src="jams"
-              alt="Micheal Cooper"
-              class="w-full h-full object-cover duration-500 ease-in-out hover:scale-[1.09]"
-            />
-          </div>
-          <h5 class="text-2xl pt-4">Micheal Cooper</h5>
-          <p class="text-lg">Property Agent</p>
-        </div>
-
+          
 
           <div class="w-full h-[85%] bg-red-400">
             <img

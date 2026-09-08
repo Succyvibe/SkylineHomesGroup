@@ -94,9 +94,7 @@ document.addEventListener('scroll', function () {
               >Skyline Agents</RouterLink
             >
           </li>
-          <li>
-            <RouterLink class="hover:border-b-2" to="/Blogs">Blogs</RouterLink>
-          </li>
+         
         </ul>
 
         <div class="hidden lg:flex items-center transition-all duration-150">
@@ -137,12 +135,7 @@ document.addEventListener('scroll', function () {
               >Contact</RouterLink
             >
           </li>
-          <li class="mt-10" @click="MenuOpen()">
-            <RouterLink class="hover:border-b-2" to="/blogs">Blogs</RouterLink>
-          </li>
-          <li class="mt-10" @click="MenuOpen()">
-            <RouterLink class="hover:border-b-2" to="/blog">blog</RouterLink>
-          </li>
+         
         </ul>
 
         <!-- ===========================Hamburger Icon============= -->

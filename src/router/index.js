@@ -4,8 +4,8 @@ import NewyorkRentalApplication from '@/views/Application.vue';
 import NewjerseyRentalApplication from '@/views/ApplicationRental.vue';
 import Agents from '@/views/agents/Agents.vue';
 import Agentss from '@/views/agents/AgentDetails.vue';
-import Blogs from '@/views/blogs/Blogs.vue';
-import BlogDetails from '@/views/blogs/BlogDetails.vue';
+// import Blogs from '@/views/blogs/Blogs.vue';
+// import BlogDetails from '@/views/blogs/BlogDetails.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -54,16 +54,16 @@ const router = createRouter({
     //   component: "AgentDetails",
     // },
 
-    {
-      path: '/blogs',
-      name: 'Blogs',
-      component: Blogs,
-    },
-    {
-      path: '/blogs/:id',
-      name: 'BlogDetails',
-      component: BlogDetails,
-    },
+    // {
+    //   path: '/blogs',
+    //   name: 'Blogs',
+    //   component: Blogs,
+    // },
+    // {
+    //   path: '/blogs/:id',
+    //   name: 'BlogDetails',
+    //   component: BlogDetails,
+    // },
   ],
 });
 
